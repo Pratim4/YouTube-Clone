@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(59, 58, 58);
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 5px;
+    margin-top: -10px;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 20px;
+}
+.logo .ham{
+height: 25px;
+width: 25px;
+margin-top: 20px;
+}
+.logo .yt{
+    margin-top:3px
+}
+
+
+
+.search{
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 0 0 2px gray;
+    align-items: center;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.s1 p{
+    color: rgb(81, 81, 81);
+    margin-left: 10px;
+}
+.s1 i{
+    background-color: rgba(179, 179, 179, 0.461);
+    width: 10%;
+    padding:12px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.search .fa-microphone{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 15px;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+.notification{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.notification .view{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 1px gray;
+}
+.notification .fa-bell{
+    margin-top: 5px;
+}
+.notification img{
+    border-radius: 50%;
+
+}
+.sidebar{
+    width: 18vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-left: 10px;
+    padding: 15px;
+    padding-top: 0;
+    height: 87.5vh;
+    
+    
+   
+    
+}
+.h1:hover{
+    background-color: rgba(208, 204, 204, 0.593);
+    border-radius: 10px;
+    
+    
+    
+}
+.h1 i{
+    color: black;
+}
+.home1{
+    background-color: rgba(208, 204, 204, 0.593);
+    border-radius: 10px;
+    
+   
+}
+.h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 5px;
+    gap: 20px;
+
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+
+}
+.h2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+}
+.h2 p{
+    font-size: 18px;
+}
+.subs{
+    padding-top: 20px;
+}
+.describe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    text-wrap: wrap;
+}
+.describe p{
+    font-size: 15px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.main{
+    width: 80vw;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    overflow-y: scroll;
+}
+.top::-webkit-scrollbar {
+  display: none; 
+}
+.top p{
+    margin: 3px;
+    padding: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    color: rgb(52, 51, 51);
+    font-weight: bold ;
+    text-wrap: nowrap;
+    background-color: rgba(211, 207, 207, 0.334);
+    border-radius: 8px;
+}
+.top .all{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.top p:hover{
+     background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.videos{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+
+}
+.videobody{
+    display: flex;
+    flex-direction: column;
+    height: 83vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.videobody::-webkit-scrollbar {
+  display: none; 
+}
+.vcards{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.desc>p{
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(50, 50, 50);
+    word-spacing: 2px;
+
+}
+.vcards .time{
+    background-image: url(https://img.youtube.com/vi/7EKgIC5I_48/hqdefault.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 28.5vh;
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: end;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 8px;
+}
+.vt{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: rgb(56, 55, 55);
+}
+.vt p:nth-of-type(2){
+    font-size: 12px;
+}
+.shorts{
+    padding: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.short-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+    
+}
+.sh{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.sh img{
+    margin: 5px;
+}
+.sh h2{
+    color: rgb(14, 13, 13);
+    font-weight:bold;
+    font-size: 23px;
+
+
+}
+
+.short-top img{
+    margin-right: 5px;
+}
+
+.shrtvid{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+.svcards{
+    
+     width: 15vw;
+    
+}
+
+.svcards .time{
+     width: 14.1vw;
+    height: 50vh;
+   
+    border-radius: 8px;
+    
+}
+.shrtvid{
+    padding: 20px;
+    padding-left: 0;
+
+}
+.svcards .title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.svcards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.svcards .time{
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
