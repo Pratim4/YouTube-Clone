@@ -16,7 +16,7 @@
 <body>
     <div class="head">
         <div class="logo">
-            <img src="https://img.icons8.com/?size=100&id=3096&format=png&color=000000" alt="hamburger" class="ham">
+            <img src="https://img.icons8.com/?size=100&id=3096&format=png&color=000000" alt="hamburger" class="ham" id="ham">
 
             <img src="./Images/Youtube logo.png" alt="youtube" height="60px" class="yt">
 
@@ -40,9 +40,41 @@
 
     </div>
 
-    <div class="section">
+    <div class="section" style="position: relative;">
+        <div id="miniBar" style="position: absolute;">
+                <div class="minisidebar">
 
-        <div class="sidebar">
+                    <div class="minibar1">
+
+                        <img src="https://img.icons8.com/?size=100&id=2797&format=png&color=000000" alt="" height="20px"
+                            width="20px">
+                        <p>Home</p>
+                    </div>
+                    <div class="minibar1">
+
+                         <img src="https://img.icons8.com/?size=100&id=ajczeHCWXbyR&format=png&color=000000" alt=""
+                        height="20px" width="20px">
+                        <p>Shorts</p>
+                    </div>
+                    <div class="minibar1">
+
+                        <img src="https://img.icons8.com/?size=100&id=reqYJP3X0f7Y&format=png&color=000000" alt=""
+                        height="20px" width="20px">
+                        <p>Subscriptions</p>
+                    </div>
+                    <div class="minibar1">
+
+                        <img src="https://img.icons8.com/?size=100&id=7820&format=png&color=000000" alt="" height="20px"
+                            width="20px">
+                        <p>You</p>
+                    </div>
+                </div>
+
+            </div>
+
+        <div class="sidebar" id="sidebar" style="position: relative;">
+
+            
             <div class="home">
                 <div class="h1 home1">
                     <img src="https://img.icons8.com/?size=100&id=2797&format=png&color=000000" alt="" height="20px"
@@ -227,7 +259,7 @@
             </div>
 
         </div>
-        <div class="main">
+        <div class="main" id="main">
             <div class="top">
                 <p class="all">All</p>
                 <p>JavaScript</p>
@@ -243,6 +275,9 @@
                 <p>Nepal</p>
                 <p>Tourism</p>
                 <p>Movies</p>
+                <p>War</p>
+                <p>One Piece</p>
+                <p>Breaking Bad</p>
 
             </div>
             <div class="videobody">
@@ -320,14 +355,7 @@
 
                         </div>
                     </div>
-
-
-
-
-
-                </div>
-                <div class="videos">
-                    <div class="vcards">
+                     <div class="vcards">
                         <p class="time"
                             style="background-image: url(https://img.youtube.com/vi/KBx3Bx8XNQI/hqdefault.jpg);">9:20
                         </p>
@@ -411,6 +439,7 @@
 
 
                 </div>
+             
 
                 <div class="shorts">
                     <div class="short-top">
@@ -425,7 +454,7 @@
                     </div>
 
 
-                    <div class="shrtvid">
+                    <div class="shrtvid" id="shrtvid">
                         <div class="svcards">
                             <p class="time"
                                 style="background-image: url(https://img.youtube.com/vi/QnbspJRf7wc/hqdefault.jpg);">
@@ -526,7 +555,7 @@
                 </div>
 
 
-                   <div class="videos">
+                <div class="videos">
                     <div class="vcards">
                         <p class="time"
                             style="background-image: url(https://img.youtube.com/vi/6-a_wfFF_Xg/hqdefault.jpg);">3:47
@@ -540,9 +569,9 @@
                                     <p>Sushant KC - Jhyal Bata (Official Music Video)</p>
                                     <div class="vt">
 
-                                        <p> 
-                                            
-Sushant KC
+                                        <p>
+
+                                            Sushant KC
 
                                         </p>
                                         <p>46M <span><img
@@ -567,7 +596,7 @@ Sushant KC
                                     alt="dss" height="40px" width="40px" style="border-radius: 50%;">
                                 <div class="desc">
                                     <p>
-MR BEAST PARODY 🤑 Ft. INDIAN CREATORS | CARRYMINATI</p>
+                                        MR BEAST PARODY 🤑 Ft. INDIAN CREATORS | CARRYMINATI</p>
                                     <div class="vt">
 
                                         <p>Carryminati</p>
@@ -629,7 +658,7 @@ MR BEAST PARODY 🤑 Ft. INDIAN CREATORS | CARRYMINATI</p>
 
 
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
